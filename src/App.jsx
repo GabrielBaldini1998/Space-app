@@ -7,6 +7,7 @@ import BarraLateral from "./componentes/BarraLateral"
 import Banner from "./componentes/Banner"
 import Galeria from "./componentes/Galeria"
 import ModalZoom from "./componentes/ModalZoom"
+import Footer from "./componentes/Footer"
 
 import fotos from "./fotos.json"
 
@@ -24,7 +25,7 @@ const AppContainer = styled.div`
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 24px 24px 24px;
 
   @media (max-width: 768px) {
     padding: 0 16px;
@@ -116,6 +117,7 @@ const App = () => {
       aoFechar={() => setFotoSelecionada(null)}
       aoAlternarFavorito={aoAlternarFavorito}
       />
+      <Footer />
     </FundoGradiente>
   )
 }
