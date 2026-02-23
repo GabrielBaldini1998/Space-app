@@ -132,7 +132,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 👨‍💻 Autor
 
-Desenvolvido com ❤️ para explorar as maravilhas do espaço.
+Desenvolvido por Gabriel Baldini com ❤️ para explorar as maravilhas do espaço.
 
 ---
 
